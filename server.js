@@ -10,7 +10,7 @@ app.use(express.json());
 
 // Route de base
 app.get('/', (res) => {
-    res.json({ message: 'Bienvenue sur littleAPI !\n\nVoici les routes dispo :\n- foods' });
+    res.json({ message: 'Bienvenue sur littleAPI !' });
 });
 
 const foodsRouter = require('./routers/foods');
