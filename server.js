@@ -16,6 +16,12 @@ app.get('/', (res) => {
 const foodsRouter = require('./routers/foods');
 app.use('/foods', foodsRouter);
 
+const ingredientsRouter = require('./routers/ingredients');
+app.use('/ingredients', ingredientsRouter);
+
+const compositionsRouter = require('./routers/compositions');
+app.use('/compositions', compositionsRouter);
+
 //Start the server
 app.listen(port, () => {
     console.log('Server is start !');
