@@ -1,5 +1,5 @@
 //------------- Import -------------
-const bcrypt = require('bcrypt');
+//const bcrypt = require('bcrypt');
 
 //------------- Data -------------
 const customers = [
