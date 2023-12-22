@@ -18,7 +18,7 @@ const ingredients = [
   { id: 16, name: 'Quinoa flour', stock: 280 },
   { id: 17, name: 'Milk', stock: 430 },
   { id: 18, name: 'Cornmeal', stock: 100 },
-  { id: 19, name: 'Molasses', stock: 350 },
+  { id: 19, name: 'Molasses', stock: 0 },
   { id: 20, name: 'Rye flour', stock: 200 },
   { id: 21, name: 'Cornmeal', stock: 450 },
   { id: 22, name: 'Peanuts', stock: 60 },
