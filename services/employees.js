@@ -20,7 +20,7 @@ const employees = [
   { firstname: 'Thomas', lastname: 'Violet', mail: 'thomas.violet@gmail.com', password: 'mdp', role: 3, endContract: null },
   { firstname: 'Caroline', lastname: 'Gris', mail: 'caroline.gris@gmail.com', password: 'mdp', role: 4, endContract: null },
   { firstname: 'Farid', lastname: 'Bleu', mail: 'farid.bleu@gmail.com', password: 'mdp', role: 5, endContract: new Date('2023-10-05') },
-  { firstname: 'Isabelle', lastname: 'Marron', mail: 'isabelle.marron@gmail.com', password: 'mdp', role: 2, endContract: new Date('2024-01-15') },
+  { firstname: 'Isabelle', lastname: 'Marron', mail: 'isabelle.marron@gmail.com', password: 'mdp', role: 2, endContract: null },
   { firstname: 'Vincent', lastname: 'Rougeot', mail: 'vincent.rougeot@gmail.com', password: 'mdp', role: 3, endContract: null },
 ];
 
