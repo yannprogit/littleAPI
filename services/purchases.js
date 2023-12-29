@@ -11,6 +11,7 @@ const purchases = [
     { dueDate: new Date('2023-03-15T17:30:00'), customerId: 3, foodId: 18, deliverymanId: 2, deliveryDate: new Date('2023-03-15T18:15:00'), status: 'paid', validation: 1, qty: 2 },
     { dueDate: new Date('2023-07-05T21:00:00'), customerId: 6, foodId: 23, deliverymanId: 2, deliveryDate: new Date('2023-07-05T21:45:00'), status: 'paid', validation: 1, qty: 1 },
     { dueDate: new Date('2023-11-12T16:15:00'), customerId: 9, foodId: 2, deliverymanId: 2, deliveryDate: new Date('2023-11-12T17:00:00'), status: 'paid', validation: 1, qty: 2 },
+    { dueDate: new Date('2024-11-12T16:15:00'), customerId: 3, foodId: 4, deliverymanId: 7, deliveryDate: null, status: 'paid', validation: 0, qty: 6 },
 ];
 
 //------------- Methods -------------
