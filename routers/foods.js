@@ -5,4 +5,6 @@ const foodsController = require('../controllers/foods');
 //------------- Routes -------------
 router.get('/', foodsController.getFoods);
 
+router.get('/lakojary', foodsController.getFoodsForLakojary);
+
 module.exports = router;

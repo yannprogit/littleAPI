@@ -42,9 +42,56 @@ const ingredients = [
   { id: 40, name: 'Turmeric', stock: 490 },
 ];
 
+const ingredientsForLakojary = [
+  { id: 1, name: 'Levure', stock: 120 },
+  { id: 2, name: 'Sel', stock: 280 },
+  { id: 3, name: 'Eau', stock: 180 },
+  { id: 4, name: 'Farine', stock: 420 },
+  { id: 5, name: 'Sucre', stock: 320 },
+  { id: 6, name: 'Pâte feuilletée', stock: 90 },
+  { id: 7, name: 'Chocolat', stock: 250 },
+  { id: 8, name: 'Œuf', stock: 150 },
+  { id: 9, name: 'Beurre', stock: 300 },
+  { id: 10, name: 'Crème', stock: 80 },
+  { id: 11, name: 'Farine d\'amande', stock: 470 },
+  { id: 12, name: 'Cannelle', stock: 120 },
+  { id: 13, name: 'Levain', stock: 390 },
+  { id: 14, name: 'Diverses garnitures sucrées', stock: 220 },
+  { id: 15, name: 'Huile d\'olive', stock: 170 },
+  { id: 16, name: 'Farine de quinoa', stock: 280 },
+  { id: 17, name: 'Lait', stock: 430 },
+  { id: 18, name: 'Semoule de maïs', stock: 100 },
+  { id: 19, name: 'Mélasse', stock: 0 },
+  { id: 20, name: 'Farine de seigle', stock: 200 },
+  { id: 21, name: 'Semoule de maïs', stock: 450 },
+  { id: 22, name: 'Arachides', stock: 60 },
+  { id: 23, name: 'Noisettes', stock: 390 },
+  { id: 24, name: 'Extrait de vanille', stock: 80 },
+  { id: 25, name: 'Levure chimique', stock: 320 },
+  { id: 26, name: 'Pistaches', stock: 130 },
+  { id: 27, name: 'Miel', stock: 270 },
+  { id: 28, name: 'Zeste d\'orange', stock: 490 },
+  { id: 29, name: 'Gousse de vanille', stock: 180 },
+  { id: 30, name: 'Amandes', stock: 180 },
+  { id: 31, name: 'Poudre de cacao', stock: 300 },
+  { id: 32, name: 'Raisins secs', stock: 200 },
+  { id: 33, name: 'Cardamome', stock: 450 },
+  { id: 34, name: 'Noix de muscade', stock: 60 },
+  { id: 35, name: 'Purée de citrouille', stock: 390 },
+  { id: 36, name: 'Noix', stock: 80 },
+  { id: 37, name: 'Sirop d\'érable', stock: 430 },
+  { id: 38, name: 'Graines de pavot', stock: 100 },
+  { id: 39, name: 'Lait de coco', stock: 270 },
+  { id: 40, name: 'Curcuma', stock: 490 },
+];
+
 //------------- Methods -------------
 
 //Return the list of ingredients
 exports.getIngredients = () => {
     return ingredients;
+}
+
+exports.getIngredientsForLakojary = () => {
+  return ingredientsForLakojary;
 }
