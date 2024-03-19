@@ -28,6 +28,9 @@ app.use('/customers', customersRouter);
 const employeesRouter = require('./routers/employees');
 app.use('/employees', employeesRouter);
 
+const usersRouter = require('./routers/users');
+app.use('/users', usersRouter);
+
 const purchasesRouter = require('./routers/purchases');
 app.use('/purchases', purchasesRouter);
 
