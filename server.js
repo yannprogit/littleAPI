@@ -37,7 +37,7 @@ app.use('/purchases', purchasesRouter);
 const ordersRouter = require('./routers/orders');
 app.use('/orders', ordersRouter);
 
-const weekendsRouter = require('./routers/weekends');
+const weekendsRouter = require('./routers/weekend');
 app.use('/weekends', weekendsRouter);
 
 //Start the server
