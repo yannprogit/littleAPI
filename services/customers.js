@@ -17,10 +17,10 @@ const customers = [
   ];
 
 const customersForLakojary = [
-    { userId: 2, departmentId: 75, zipCode: 75600, address: "8 rue de la merguez", town: "Paris" },
-    { userId: 3, departmentId: 69, zipCode: 69000, address: "15 avenue des tulipes", town: "Lyon" },
-    { userId: 4, departmentId: 33, zipCode: 33000, address: "22 rue du chocolat", town: "Bordeaux" },
-    { userId: 5, departmentId: 59, zipCode: 59000, address: "10 place du croissant", town: "Lille" },
+    { userId: 2, departmentId: 77, zipCode: 77680, address: "8 rue de la merguez", town: "Melun" },
+    { userId: 3, departmentId: 77, zipCode: 77680, address: "15 avenue des tulipes", town: "Roissy-En-Brie" },
+    { userId: 4, departmentId: 77, zipCode: 77680, address: "22 rue du chocolat", town: "Pontcarré" },
+    { userId: 5, departmentId: 31, zipCode: 31000, address: "10 place du croissant", town: "Cugnaux" },
     { userId: 6, departmentId: 59, zipCode: 59000, address: "5 boulevard de la baguette", town: "Lille" },
     { userId: 7, departmentId: 34, zipCode: 34000, address: "18 rue de la lavande", town: "Montpellier" },
     { userId: 8, departmentId: 67, zipCode: 67000, address: "25 avenue du fromage", town: "Strasbourg" },
