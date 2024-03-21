@@ -1,6 +1,7 @@
 //------------- Data -------------
+const bcrypt = require('bcrypt');
 const users = [
-    { firstname: 'Klie', lastname: 'Yen', mail: 'klie.yen@gmail.com', password: 'mdp'},
+    { firstname: 'Klie', lastname: 'Yen', mail: 'klie.yen@gmail.com', password: await bcrypt.hash('mdp', 10) },
     { firstname: 'Sophie', lastname: 'Martin', mail: 'sophie.martin@gmail.com', password: 'mdp'},
     { firstname: 'Pierre', lastname: 'Leblanc', mail: 'pierre.leblanc@gmail.com', password: 'mdp'},
     { firstname: 'Claire', lastname: 'Dupuis', mail: 'claire.dupuis@gmail.com', password: 'mdp'},
