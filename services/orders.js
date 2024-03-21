@@ -11,7 +11,7 @@ const orders = [
     { dueDate: new Date('2024-03-15T17:30:00'), customerId: 5, foodId: 18, deliverymanId: 29, deliveryDate: new Date('2024-03-15T18:15:00'), status: 'paid', validation: 1, qty: 2 },
     { dueDate: new Date('2024-07-05T21:00:00'), customerId: 5, foodId: 23, deliverymanId: 30, deliveryDate: new Date('2024-07-05T21:45:00'), status: 'paid', validation: 1, qty: 1 },
     { dueDate: new Date('2024-11-12T16:15:00'), customerId: 5, foodId: 2, deliverymanId: 31, deliveryDate: new Date('2024-11-12T17:00:00'), status: 'paid', validation: 1, qty: 2 },
-    { dueDate: new Date('2024-19-07T16:15:00'), customerId: 5, foodId: 4, deliverymanId: 32, deliveryDate: null, status: 'paid', validation: 0, qty: 6 },
+    { dueDate: new Date('2024-07-19T16:15:00'), customerId: 5, foodId: 4, deliverymanId: 32, deliveryDate: null, status: 'paid', validation: 0, qty: 6 },
     { dueDate: null, customerId: 2, foodId: 26, deliverymanId: null, deliveryDate: null, status: 'cart', validation: 0, qty: 6 },
 ];
 
