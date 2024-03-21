@@ -37,6 +37,9 @@ app.use('/purchases', purchasesRouter);
 const ordersRouter = require('./routers/orders');
 app.use('/orders', ordersRouter);
 
+const weekendsRouter = require('./routers/weekends');
+app.use('/weekends', weekendsRouter);
+
 //Start the server
 app.listen(port, () => {
     console.log('Server is start !');
